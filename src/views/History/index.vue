@@ -1,11 +1,15 @@
 <template>
-  <div class="page-History">
-    <h1>历史</h1>
+  <div class="page-Update">
+    <Commonheader title='历史'></Commonheader>
   </div>
 </template>
 
 <script>
+import Commonheader from '@/components/Commonheader'
 export default {
-  name: 'History'
+  name: 'History',
+  components: {
+    Commonheader
+  }
 }
 </script>
